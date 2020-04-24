@@ -9,7 +9,7 @@ import backgroundImage from './assets/starwars.jpg';
 import reducer from './reducers'
 import rootSaga from './sagas'
 import history from './services/history';
-import Species from './views/Species/Species';
+import Species from './views/Species';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducer, applyMiddleware(sagaMiddleware));

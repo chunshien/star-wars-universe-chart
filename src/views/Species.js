@@ -3,7 +3,6 @@ import _ from 'lodash';
 import { Paper, makeStyles } from '@material-ui/core';
 import styled from 'styled-components'
 import { connect } from 'react-redux';
-import { Scatter } from 'react-chartjs-2';
 
 import { getSpeciesList, setSpecies } from '../actions';
 import Loading from '../components/Loading';
